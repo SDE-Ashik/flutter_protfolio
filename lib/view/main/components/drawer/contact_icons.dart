@@ -14,8 +14,8 @@ class ContactIcon extends StatelessWidget {
       child: Row(
         children: [
           const Spacer(),
-          IconButton(onPressed: () {launchUrl(Uri.parse('https://linkedin.com/in/hamad-anwar'));}, icon: SvgPicture.asset('assets/icons/linkedin.svg')),
-          IconButton(onPressed: () {launchUrl(Uri.parse('https://github.com/hamad-anwar'));}, icon: SvgPicture.asset('assets/icons/github.svg')),
+          IconButton(onPressed: () {launchUrl(Uri.parse('https://www.linkedin.com/in/akhila-anil-7663b4312/'));}, icon: SvgPicture.asset('assets/icons/linkedin.svg')),
+          IconButton(onPressed: () {launchUrl(Uri.parse('https://github.com/Akhilaanil104/'));}, icon: SvgPicture.asset('assets/icons/github.svg')),
           const Spacer(),
         ],
       ),
